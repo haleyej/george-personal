@@ -1,0 +1,84 @@
+body {
+    font-size: 1em; 
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+header {
+    margin-bottom: 25px;
+    width: 100%
+}
+
+nav {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+img {
+    border: 5px solid #000; 
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 5% auto 5% auto;
+    max-width: 400px;
+}
+
+.bio, .writing {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 650px) {
+
+    .container {
+        max-width: 50%;
+    }
+
+    .bio, .writing {
+        grid-auto-flow: column;
+    }
+
+    .bio {
+        grid-gap: 20px;
+        grid-template-columns: 1fr 2fr; 
+        grid-template-rows: auto;
+    }
+    
+    .writing {
+        grid-gap: 70px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        margin-top: 25px;
+    }
+
+
+}
