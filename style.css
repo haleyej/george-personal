@@ -43,6 +43,15 @@ p {
 li {
     margin-bottom: 10px;
 }
+
+a, a:visited {
+    color: rgb(29, 99, 118);
+}
+
+a:hover {
+    color: rgb(0, 143, 183);
+}
+
 .container {
     margin: 5% auto 5% auto;
     max-width: 400px;
