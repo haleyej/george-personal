@@ -62,7 +62,8 @@ a:hover {
 }
 
 .container {
-    margin: 5% 1% 5% 1%;
+    margin: 5% auto 5% auto;
+    padding: 20px 0px 20px 0px;
     max-width: 400px;
 }
 
