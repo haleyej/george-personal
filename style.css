@@ -43,7 +43,12 @@ p {
     margin-bottom: 10px;
 }
 
+ul, ol {
+    list-style: circle;
+}
+
 li {
+    margin-left: 15px;
     margin-bottom: 10px;
 }
 
